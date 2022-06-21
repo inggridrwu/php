@@ -1,0 +1,44 @@
+:root{
+    --blue: #2ea3e2;
+    --blue-white: rgb(57, 236, 245);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+
+input[type=text], input[type=password], input[type=submit]{
+    border: 1px solid var(--blue);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type=submit]:hover{
+    background-color: var(--blue);
+}
+
+table{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+table, td{
+    border: 1px solid;
+}
+td{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--blue);
+}
